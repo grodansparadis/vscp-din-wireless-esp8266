@@ -467,8 +467,6 @@ F 3 "" H 4200 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 6750 4200 6250
-Wire Wire Line
 	8500 5750 6950 5750
 Connection ~ 8500 5750
 $Comp
@@ -606,7 +604,6 @@ Wire Wire Line
 	3700 6450 3700 6250
 Wire Wire Line
 	3700 6250 4200 6250
-Connection ~ 4200 6250
 Wire Wire Line
 	4200 6250 4200 4700
 $Comp
@@ -751,4 +748,9 @@ Text Label 7400 2850 0    50   ~ 0
 ledb
 Text Label 7400 2750 0    50   ~ 0
 leda
+Wire Wire Line
+	4400 6750 4400 6250
+Wire Wire Line
+	4400 6250 4200 6250
+Connection ~ 4200 6250
 $EndSCHEMATC
